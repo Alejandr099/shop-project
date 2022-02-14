@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(209, 209, 216);
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    line-height: 50px;
+}
+
+.container {
+    padding-top: 15px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding-left: 10px;
+    padding-bottom: -50px;
+    padding-top: -50px;
+}
+
+.alert {
+    padding-top: 5px;
+}
+
+#header-username{
+    color: ghostwhite;
+}
+
+nav {
+    height: 60px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 15px;
+    transition: all 300ms;
+}
+
+.navbar-brand:hover, .info-slide:active {
+    transform: scale(1.5);
+}
+
+.card-deck {
+    padding-left: 20px;
+}
+
+.card {
+    margin-top: 20px;
+    min-width: 200px;
+    max-width: 17rem;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+#cart {
+    width: 44px;
+    height: 44px;
+}
+
+button#add {
+    margin-top: 200px;
+    margin-left: 50px;
+    height: 80px;
+    width: 80px;
+}
